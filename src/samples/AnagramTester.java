@@ -55,7 +55,7 @@ public class AnagramTester {
 		//System.out.println("S:"+s);
 		if(sm=="N")
 		{
-			System.out.println("Game is Done!!!");
+			System.out.println("Game Over!!!Please play it again!!!”);
 			break;
 		}
 			//i++;
