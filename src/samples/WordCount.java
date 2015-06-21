@@ -35,11 +35,16 @@ public class WordCount {
 		}
 		//System.out.println(inputLists);
 		//After the complete List is formed it is iterated master List size i.e assuming  nk words
-		for (int j = 0; j < inputLists.size(); j++) {
-			if (!uniqSet.contains(inputLists.get(j))) {
-				uniqSet.add(inputLists.get(j));
-			}
-		}
+//		for (int j = 0; j < inputLists.size(); j++) {
+//			if (!uniqSet.contains(inputLists.get(j))) {
+//				uniqSet.add(inputLists.get(j));
+//			}
+//		}
+//		for(int j = 0; j < inputLists.size(); j++){
+//			uniqSet.add(inputLists.get(j));
+//		}
+		//System.out.println(uniqSet);
+		uniqSet.addAll(inputLists);
 		//System.out.println(uniqSet);
 		Object[] uniqArr = uniqSet.toArray();
 		//This is executed with a unique elements count.
